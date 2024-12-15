@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda de Contatos</h1>
+        <form id="form-contato">
+            <label for="nome-contato">Nome:</label>
+            <input type="text" id="nome-contato" required>
+            <label for="telefone-contato">Telefone:</label>
+            <input type="tel" id="telefone-contato" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As linhas serão adicionadas aqui -->
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
